@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ff0f52e-015f-4953-84a0-ddb7c35e2383">
+  <producedTypes>
+    <managerType typeId="93349203-cef9-4c7b-b2b2-398b79b025c2" valueTypeId="49f6328c-e03c-4a8b-ac85-40082283727f"/>
+    <valueManagerType typeId="d24498ed-6db1-4ce7-8968-ce906647636c" valueTypeId="9ad664b4-6f2d-46db-9bed-1d222a31962e"/>
+  </producedTypes>
+  <name>ЛогинФТП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логин ФТП</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

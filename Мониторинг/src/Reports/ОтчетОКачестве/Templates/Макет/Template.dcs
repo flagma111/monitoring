@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Конкурент</dataPath>
+			<field>Конкурент</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЦенаКонкурента</dataPath>
+			<field>ЦенаКонкурента</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номенклатура</dataPath>
+			<field>Номенклатура</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаМониторинга</dataPath>
+			<field>ДатаМониторинга</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СопоставлениеКорректно</dataPath>
+			<field>СопоставлениеКорректно</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КатегорияНоменклатуры</dataPath>
+			<field>КатегорияНоменклатуры</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Наименование</dataPath>
+			<field>Наименование</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Наименование</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Код</dataPath>
+			<field>Код</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Код</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Категория</dataPath>
+			<field>Категория</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Категория</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Исполнитель</dataPath>
+			<field>Исполнитель</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Группа1Уровня</dataPath>
+			<field>Группа1Уровня</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа1 уровня</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НашаЦена</dataPath>
+			<field>НашаЦена</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Наша цена</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Цена</dataPath>
+			<field>Цена</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КомментарийКНоменклатуре</dataPath>
+			<field>КомментарийКНоменклатуре</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИменаКартинок</dataPath>
+			<field>ИменаКартинок</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Комментарий</dataPath>
+			<field>Комментарий</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	СопоставлениеТоваровТЧ_Сопоставление.Номенклатура.Код КАК Код,
+	СопоставлениеТоваровТЧ_Сопоставление.Номенклатура КАК Наименование,
+	ВЫБОР
+		КОГДА СопоставлениеТоваровТЧ_Сопоставление.Номенклатура.Родитель = ЗНАЧЕНИЕ(Справочник.Номенклатура.ПустаяСсылка)
+			ТОГДА СопоставлениеТоваровТЧ_Сопоставление.Номенклатура
+		КОГДА СопоставлениеТоваровТЧ_Сопоставление.Номенклатура.Родитель.Родитель = ЗНАЧЕНИЕ(Справочник.Номенклатура.ПустаяСсылка)
+			ТОГДА СопоставлениеТоваровТЧ_Сопоставление.Номенклатура.Родитель
+		КОГДА СопоставлениеТоваровТЧ_Сопоставление.Номенклатура.Родитель.Родитель.Родитель = ЗНАЧЕНИЕ(Справочник.Номенклатура.ПустаяСсылка)
+			ТОГДА СопоставлениеТоваровТЧ_Сопоставление.Номенклатура.Родитель.Родитель
+		КОГДА СопоставлениеТоваровТЧ_Сопоставление.Номенклатура.Родитель.Родитель.Родитель.Родитель = ЗНАЧЕНИЕ(Справочник.Номенклатура.ПустаяСсылка)
+			ТОГДА СопоставлениеТоваровТЧ_Сопоставление.Номенклатура.Родитель.Родитель.Родитель
+	КОНЕЦ КАК Группа1Уровня,
+	Цены.Цена КАК НашаЦена,
+	Цены.КатегорияНоменклатуры КАК Категория,
+	СопоставлениеТоваровТЧ_Сопоставление.ЦенаКонкурента,
+	СопоставлениеТоваровТЧ_Сопоставление.Конкурент,
+	СопоставлениеТоваровТЧ_Сопоставление.Исполнитель,
+	СопоставлениеТоваровТЧ_Сопоставление.СопоставлениеКорректно,
+	СопоставлениеТоваровТЧ_Сопоставление.ДатаМониторинга,
+	СопоставлениеТоваровТЧ_Сопоставление.КомментарийКНоменклатуре,
+	СопоставлениеТоваровТЧ_Сопоставление.ИменаКартинок,
+	СопоставлениеТоваровТЧ_Сопоставление.Комментарий
+ИЗ
+	Документ.СопоставлениеТоваров.ТЧ_Сопоставление КАК СопоставлениеТоваровТЧ_Сопоставление
+		ЛЕВОЕ СОЕДИНЕНИЕ (ВЫБРАТЬ
+			ЦеныНоменклатурыСрезПоследних.Номенклатура КАК Номенклатура,
+			СРЕДНЕЕ(ЦеныНоменклатурыСрезПоследних.Цена) КАК Цена,
+			МАКСИМУМ(ЦеныНоменклатурыСрезПоследних.КатегорияНоменклатуры) КАК КатегорияНоменклатуры
+		ИЗ
+			РегистрСведений.ЦеныНоменклатуры.СрезПоследних КАК ЦеныНоменклатурыСрезПоследних
+		
+		СГРУППИРОВАТЬ ПО
+			ЦеныНоменклатурыСрезПоследних.Номенклатура) КАК Цены
+		ПО СопоставлениеТоваровТЧ_Сопоставление.Номенклатура = Цены.Номенклатура
+ГДЕ
+	СопоставлениеТоваровТЧ_Сопоставление.Ссылка.Проведен</query>
+	</dataSet>
+	<calculatedField>
+		<dataPath>ФотографияКонкурента1</dataPath>
+		<expression>"%ФотографияКонкурента1%"</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Фотография конкурента 1</v8:content>
+			</v8:item>
+		</title>
+		<appearance>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>МинимальнаяВысота</dcscor:parameter>
+				<dcscor:value xsi:type="xs:decimal">110</dcscor:value>
+			</dcscor:item>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>МаксимальнаяВысота</dcscor:parameter>
+				<dcscor:value xsi:type="xs:decimal">110</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ФотографияКонкурента2</dataPath>
+		<expression>"%ФотографияКонкурента2%"</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Фотография конкурента 2</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ФотографияКонкурента3</dataPath>
+		<expression>"%ФотографияКонкурента3%"</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Фотография конкурента 3</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>НашаФотография</dataPath>
+		<expression>"%НашаФотография%"</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Наша фотография</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Код</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Наименование</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Группа1Уровня</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НашаЦена</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Категория</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Комментарий</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЦенаКонкурента</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Конкурент</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Исполнитель</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СопоставлениеКорректно</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КомментарийКНоменклатуре</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаМониторинга</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НашаФотография</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ФотографияКонкурента1</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ФотографияКонкурента2</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ФотографияКонкурента3</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИменаКартинок</dcsset:field>
+				</dcsset:item>
+				<dcsset:viewMode>Normal</dcsset:viewMode>
+			</dcsset:selection>
+			<dcsset:order>
+				<dcsset:viewMode>Normal</dcsset:viewMode>
+			</dcsset:order>
+			<dcsset:conditionalAppearance>
+				<dcsset:viewMode>Normal</dcsset:viewMode>
+			</dcsset:conditionalAppearance>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьОтбор</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">Auto</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:filter>
+					<dcsset:userSettingID>2550d585-31db-4a41-900f-f56881ef7730</dcsset:userSettingID>
+				</dcsset:filter>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+			<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

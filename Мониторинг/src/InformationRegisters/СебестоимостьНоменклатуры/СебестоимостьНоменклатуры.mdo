@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b6f5ebf-458b-45cd-aafe-3aedb3664f99">
+  <producedTypes>
+    <selectionType typeId="dd6e3c35-5d23-4f08-ac01-ca4df0c864e8" valueTypeId="ef341f66-3bbc-44fc-a737-c3202e1bccb8"/>
+    <listType typeId="c8139cb2-7170-46ff-8462-50154f838e6f" valueTypeId="29401c29-744b-40b7-864d-4fda412eb2d0"/>
+    <managerType typeId="aaeb3372-5ff0-4b8f-aad1-9c1273b7add3" valueTypeId="df152b2e-d933-400d-861c-7ffe68043f60"/>
+    <recordSetType typeId="33e66802-dc2f-4363-a21c-a6dfdd1160a5" valueTypeId="c3cde7b6-0b1d-4a1d-acf7-a031753884a2"/>
+    <recordKeyType typeId="a87dc96e-0f3b-4d11-bb88-ef39014c77db" valueTypeId="428c65b7-c9ca-4e4f-8532-c7626ede0109"/>
+    <recordType typeId="f3b6de24-1b1e-4052-86c5-680606f63e78" valueTypeId="54209033-06f3-47fd-83f1-ded9acb70fa1"/>
+    <recordManagerType typeId="874510b2-2fb8-4210-88ef-cd5b2aed02b3" valueTypeId="219160f6-279d-4303-acaa-ddd6c8e849cc"/>
+  </producedTypes>
+  <name>СебестоимостьНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Себестоимость номенклатуры</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="4b47543a-7aec-4933-9034-de71bbbe887e">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="af549580-086d-4dc6-aa65-72df5babe4f9">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="01e1f3ae-4329-46d3-8183-3d70346511ec">
+    <name>Магазин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Магазин</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Магазины</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

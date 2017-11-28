@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48806528-83e6-42d5-8255-f61c0a6e8865">
+  <name>НСИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>НСИ</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Магазины</content>
+  <content>Catalog.ФорматыМагазинов</content>
+  <content>Catalog.Города</content>
+  <content>Catalog.Конкуренты</content>
+  <content>Catalog.БрендыКонкурентов</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.ТипыКонкурентов</content>
+  <content>Catalog.КатегорииЦен</content>
+  <content>Catalog.Пользователи</content>
+  <content>CommonForm.НастройкиЗагрузки</content>
+  <content>DataProcessor.ОбменМониторингРозница</content>
+  <content>CommonForm.ОбщиеНастройки</content>
+  <content>InformationRegister.СоответствиеНоменклатуры</content>
+  <content>InformationRegister.СоответствиеГородов</content>
+</mdclass:Subsystem>

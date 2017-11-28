@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9bad85e9-49d5-4eb7-b66e-d9116cbf4f04">
+  <producedTypes>
+    <objectType typeId="1f4ef1d4-9619-4942-aa68-835a56a689d6" valueTypeId="c14651aa-1a83-4ebf-bebb-9d91a6c39168"/>
+    <refType typeId="80aec38c-4149-4e07-aea0-84062f421e91" valueTypeId="9b73fb18-0591-4b38-80b6-dc806ad1c020"/>
+    <selectionType typeId="adcd4cdd-3f98-49e7-8d1a-af0cec35fdb0" valueTypeId="a10f77ce-a6d8-453c-83cd-2f924ad9c73a"/>
+    <listType typeId="77b074d7-7155-4bc4-82d1-925db29d1fba" valueTypeId="6701dd2d-c203-4eb5-8362-05df28137acc"/>
+    <managerType typeId="132d3ddb-59b4-428e-be62-a701e44aeec3" valueTypeId="b9a9bf66-7dd7-469d-a13c-ec088ca90631"/>
+  </producedTypes>
+  <name>КатегорииЦен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории цен</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КатегорииЦен.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КатегорииЦен.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1297036-556e-488a-aaac-5f9b624e84b3">
+  <producedTypes>
+    <refType typeId="08f88dc7-f5df-485e-9475-fdc5aa69e7dd" valueTypeId="fa2b5503-7402-4c55-b5cb-08e6966b80e5"/>
+    <listType typeId="5c95d3e7-9d98-4456-80eb-d9ff5240b119" valueTypeId="c71915ef-e88c-447a-a04a-4df824e13afe"/>
+    <managerType typeId="913b9f5c-af81-4e6b-85a0-a035b26fce30" valueTypeId="04a0ca96-9a4a-40fd-a3b6-55b6558f6c20"/>
+  </producedTypes>
+  <name>ВидыСоответствийНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды соответствий номенклатуры</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5fff29fb-3eac-4720-85d4-036d01035780">
+    <name>ФиксПрайс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фикс прайс</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

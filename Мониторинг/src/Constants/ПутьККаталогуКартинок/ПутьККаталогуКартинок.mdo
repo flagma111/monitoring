@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f0e02db-a382-4e92-8287-2cbdbaf1866a">
+  <producedTypes>
+    <managerType typeId="56a7f869-2b38-4e5e-8fc8-5267b8c46b1f" valueTypeId="4d5d4225-9726-42ce-b7d6-07539b6ed36d"/>
+    <valueManagerType typeId="2b142e39-b34f-4271-be05-0062fa6ad0f3" valueTypeId="d03597bc-d7da-403a-975f-2e0e0c77e91a"/>
+  </producedTypes>
+  <name>ПутьККаталогуКартинок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Путь к каталогу картинок</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>1000</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

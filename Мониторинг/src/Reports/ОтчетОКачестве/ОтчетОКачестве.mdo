@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac675078-3ba5-43c8-ac39-33c46b29cb8b">
+  <producedTypes>
+    <objectType typeId="d1cbc21d-0d1a-430e-9b24-5c42bba84f7c" valueTypeId="2901d813-e71d-4f68-8ee7-7dd5576e5ebb"/>
+    <managerType typeId="86214e54-aa0e-499e-ac88-80603a169699" valueTypeId="fcc8f7c1-ffd9-4c8a-99cc-0e48c1c104d4"/>
+  </producedTypes>
+  <name>ОтчетОКачестве</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет о качестве</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчетОКачестве.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ОтчетОКачестве.Template.Макет</mainDataCompositionSchema>
+  <forms uuid="d1465af7-2c27-4bcd-84d2-38d464298521">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="955f43e3-66ae-4a39-96dc-32f84e6fed01">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

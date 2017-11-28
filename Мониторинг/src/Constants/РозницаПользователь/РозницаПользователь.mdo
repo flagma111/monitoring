@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3fbd1c42-5b8b-471e-987a-fca2abedee36">
+  <producedTypes>
+    <managerType typeId="cab83862-2a31-42c2-8578-8042b817a711" valueTypeId="07a753ed-43ee-4230-89b0-3e50bf070c13"/>
+    <valueManagerType typeId="ae9a2d52-de3c-4e7f-81f6-6683e811dcad" valueTypeId="9abf6b69-7f59-436d-a771-ecad60806757"/>
+  </producedTypes>
+  <name>РозницаПользователь</name>
+  <synonym>
+    <key>ru</key>
+    <value>Розница пользователь</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

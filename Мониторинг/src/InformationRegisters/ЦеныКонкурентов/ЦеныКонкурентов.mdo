@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="44d90bf9-caac-4d5d-872d-74dd8a6a1d90">
+  <producedTypes>
+    <selectionType typeId="96f67639-739c-4cc7-ac88-b94d03b257b9" valueTypeId="02f6aa38-3e75-4aa0-9854-71f916b44ac6"/>
+    <listType typeId="35e7436c-b3c0-4763-a350-9779e1d7be7d" valueTypeId="b94674de-1e07-44a6-96a2-ee84021c9a16"/>
+    <managerType typeId="1d229db6-33b9-442c-a86e-653275552bb5" valueTypeId="256aed4e-223d-415d-9a82-dcff7663b7f0"/>
+    <recordSetType typeId="43a7672c-245b-46f8-b037-de0d24b9104d" valueTypeId="575da383-9405-4305-957e-199c44aeae44"/>
+    <recordKeyType typeId="823b0135-6659-4608-8f51-696979c16502" valueTypeId="3023571d-17dd-44f2-94aa-fb8bd6fd4531"/>
+    <recordType typeId="2b255bd5-4657-496a-82f7-9e258e569ad7" valueTypeId="d5ec996b-7499-401f-ba31-5f68a32f521a"/>
+    <recordManagerType typeId="f6534466-3fa4-4b21-95a9-0d5548e9cbe2" valueTypeId="44c72d37-ce46-4fae-932e-e470f69aa833"/>
+  </producedTypes>
+  <name>ЦеныКонкурентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цены конкурентов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="29bba535-dfc4-473a-8fff-61b2ed0b182f">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9f28d2bb-47d5-434a-bc80-34735c92c628">
+    <name>ПрошлаяЦена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прошлая цена</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="490750af-3290-4a29-a81f-2fb70ba59fab">
+    <name>ДатаПрошлойЦены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата прошлой цены</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="7484b1a3-d905-4eae-881c-7bfd8e39e68c">
+    <name>Конкурент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конкурент</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Конкуренты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f99a5ad1-bf18-420b-9b64-b97f5a4650fa">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

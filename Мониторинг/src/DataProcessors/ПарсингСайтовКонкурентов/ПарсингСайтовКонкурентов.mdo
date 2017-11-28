@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="791a7c7e-bbbc-437b-9514-573b549aeeb9">
+  <producedTypes>
+    <objectType typeId="f53454f0-aac4-4d38-90da-499250d8c43d" valueTypeId="6d5322a7-f3fe-4f4a-9d3f-b329d27b76fe"/>
+    <managerType typeId="e46db0ae-9800-4015-9224-e1413f5fd519" valueTypeId="60ad6183-c2df-4377-96fc-821ed5d12a23"/>
+  </producedTypes>
+  <name>ПарсингСайтовКонкурентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Парсинг сайтов конкурентов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПарсингСайтовКонкурентов.Form.Форма</defaultForm>
+  <attributes uuid="a88e55e4-7dca-4cb8-abb8-2c27cd021fd5">
+    <name>ВидСоответствия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид соответствия</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ВидыСоответствийНоменклатуры</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="66a53e55-3b48-4317-bae9-4b1fc9a9ff6d">
+    <producedTypes>
+      <objectType typeId="94430f6b-82e4-4e1c-b204-30e3958ce0c0" valueTypeId="73d563de-410a-4fee-8904-a42e86ef7d73"/>
+      <rowType typeId="db33ec28-da9c-4e03-ab74-2e83f9e875b0" valueTypeId="5e07c68e-c265-4d7e-89b8-e87b4f8812bb"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="03ead3bf-b0f6-4322-8588-6d186af67049">
+      <name>Город</name>
+      <synonym>
+        <key>ru</key>
+        <value>Город</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Города</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="9e93c246-e461-45b9-b234-a827cdc95964">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f1cbdf27-7965-4780-9776-c6121a967208">
+      <name>КодКонкурента</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код конкурента</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="7072f391-d4b4-4dbd-80d3-686a22eec503">
+      <name>НаименованиеКонкурента</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование конкурента</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="2bb1f6b5-cedb-4b3c-8a56-f9dc218c860b">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="cd657c05-bcb0-4af0-9c2d-e9c2bb332df6">
+      <name>Картинки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Картинки</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1000</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="2482ff92-0ea0-4df8-8f7f-c2c047fe47ef">
+      <name>КоэффициентПересчета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Коэффициент пересчета</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="0774f70c-9d64-4cf5-8d31-a4d1c65abd3d">
+      <name>Конкурент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Конкурент</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Конкуренты</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="ec2db645-59b0-416c-ba64-b2201a66cf5e">
+    <producedTypes>
+      <objectType typeId="997fc919-4a55-4711-97f0-f79773a8c5eb" valueTypeId="5446d3c5-3823-44f7-923d-3167e878f460"/>
+      <rowType typeId="715e0e01-7c99-4f85-9e18-f5e365d9908d" valueTypeId="b3501702-4771-4c91-a408-b49c6cf76eab"/>
+    </producedTypes>
+    <name>Города</name>
+    <synonym>
+      <key>ru</key>
+      <value>Города</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="63ead1a5-f71f-4e32-9435-54911445e343">
+      <name>ФлагВыбора</name>
+      <synonym>
+        <key>ru</key>
+        <value>Флаг выбора</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="4dbfbf89-0449-443c-bc68-73053b6440f4">
+      <name>Город</name>
+      <synonym>
+        <key>ru</key>
+        <value>Город</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Города</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="af740caa-0810-45d0-9c44-5e6672adbba2">
+      <name>КодКонкурента</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код конкурента</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="6a7faaaa-eb63-41b4-bc0a-b0d36464f021">
+      <name>Конкурент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Конкурент</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Конкуренты</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="12d0cf04-92a2-4279-a604-3a00c6661ea0">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

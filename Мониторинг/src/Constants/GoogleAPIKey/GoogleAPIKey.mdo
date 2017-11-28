@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="351719db-2ec6-4127-8d45-6e04af6aa522">
+  <producedTypes>
+    <managerType typeId="3e73adac-d7f8-4f5d-8028-686db23a72b6" valueTypeId="eb359241-4cd7-42ca-8264-ac3dc7a73372"/>
+    <valueManagerType typeId="9a2e87ba-ff8b-4bca-beac-cf96f4aee2fb" valueTypeId="63c5ab26-1960-4c09-9e9c-012f51d80469"/>
+  </producedTypes>
+  <name>GoogleAPIKey</name>
+  <synonym>
+    <key>ru</key>
+    <value>Google API Key</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

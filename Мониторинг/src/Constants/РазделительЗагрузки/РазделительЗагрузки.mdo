@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="767aa255-57f8-4235-9862-9ffc07db1b5a">
+  <producedTypes>
+    <managerType typeId="16749aef-bc4b-48f9-819f-b69358d329a6" valueTypeId="440059a8-14b5-462d-8599-948dd7a9bfde"/>
+    <valueManagerType typeId="f8a58c5c-b242-417f-ac62-ad5861aeab8b" valueTypeId="096f99d4-3158-4aad-b458-b7e0a1ad6871"/>
+  </producedTypes>
+  <name>РазделительЗагрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разделитель загрузки</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>1</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

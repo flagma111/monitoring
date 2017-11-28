@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7251d45-41f6-4182-81fb-73b2023a2d84">
+  <producedTypes>
+    <objectType typeId="523af11b-6e78-4fc4-a542-6af359991b75" valueTypeId="f504c419-8c53-4a5a-b253-38783d96f80d"/>
+    <refType typeId="ca5235a1-5e7b-40b1-aaef-e8f8d83c3cb3" valueTypeId="63ec540f-f004-4e40-b42f-6d10cf3e00c6"/>
+    <selectionType typeId="0131bf92-82fd-4702-9700-c9e520ba972a" valueTypeId="02b3d359-ce15-49be-a570-2f1dc242305f"/>
+    <listType typeId="e73571c2-3665-4781-aecb-1408909061fa" valueTypeId="92f87aa5-bbff-448c-a3d3-06e1b2a0ae7a"/>
+    <managerType typeId="c69e0bd0-30f2-4c47-99ec-03e63fd95b53" valueTypeId="28a5dc31-ce32-4222-b05a-d742ab5dccc9"/>
+  </producedTypes>
+  <name>Пользователи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователи</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Пользователи.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Пользователи.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>50</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Пользователи.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="820d45b3-7682-4af4-a767-9b96373ee933">
+    <name>ОтборХранилище</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор хранилище</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="835e61ef-8cbf-49c5-b731-7a52682246fb">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="338aeb15-3b4b-41fd-86cb-cd45e82a92c3">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Catalog>

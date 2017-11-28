@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f0988b9-eb8b-4aae-a070-7d19c187af4c">
+  <producedTypes>
+    <selectionType typeId="b16d142d-f880-4bd7-b876-229b684eea8f" valueTypeId="d1420196-5d61-47ee-97a7-1575ad8f5b89"/>
+    <listType typeId="90bb6f5c-b71a-4881-9521-1ae5d53e283e" valueTypeId="3747f30e-fc93-4562-9be0-0fd881f0bf82"/>
+    <managerType typeId="11a84f00-5a0f-4dc1-a59b-6a13b8dfe316" valueTypeId="98fb398a-4d6f-403e-9830-b15bf544bd58"/>
+    <recordSetType typeId="c497424e-5826-4eaf-b590-e171f42b79bd" valueTypeId="b233c640-f775-4e4c-8f95-525e4d9ab7f1"/>
+    <recordKeyType typeId="207fbaeb-c1fd-4b56-9ce7-42de87b3532a" valueTypeId="4de53b29-7743-4763-8bb7-6cbda0241ce0"/>
+    <recordType typeId="85594edd-2c1a-410a-9de7-d936adba3575" valueTypeId="07315fd2-45c7-492b-a435-ea265cad11ff"/>
+    <recordManagerType typeId="a84816aa-b4fd-4699-93c9-cf13b5fb03ee" valueTypeId="00e3dadd-0241-4805-a4aa-aadef8fe4baa"/>
+  </producedTypes>
+  <name>СоответствиеНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствие номенклатуры</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.СоответствиеНоменклатуры.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="22ff2e70-c090-49f5-b5e6-88bc5aa83b23">
+    <name>КоэффициентПересчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент пересчета</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="123eade7-d0df-4a9f-ab73-07654d968b35">
+    <name>ВидСоответствия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид соответствия</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ВидыСоответствийНоменклатуры</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="347c519c-f075-4dcf-a607-5349a1abaa47">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="554d9f2f-51ae-4ca7-be6f-e667b94663fb">
+    <name>КодКонкурента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код конкурента</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="3947011c-4aed-475f-a3e2-4b2f8569aa07">
+    <name>ФормаЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма загрузки</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="11516bac-2d69-4df5-84dd-106dff7a4b48">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

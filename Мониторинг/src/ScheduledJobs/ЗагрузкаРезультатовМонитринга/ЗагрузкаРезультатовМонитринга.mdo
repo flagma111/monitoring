@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce9d5246-d2bb-402f-b64c-fde8d9994a59">
+  <name>ЗагрузкаРезультатовМонитринга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка результатов монитринга</value>
+  </synonym>
+  <comment></comment>
+  <methodName>CommonModule.ОбменыДанными.ПолучитьФайлыСФТП</methodName>
+  <description>ЗагрузкаРезультатовМонитринга</description>
+  <key></key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

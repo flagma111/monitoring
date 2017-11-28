@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3fcc8663-f62e-4bce-854b-5d4934befc00">
+  <producedTypes>
+    <objectType typeId="cad49e28-aa4f-4ede-bcd8-1da98cf97169" valueTypeId="061fd354-2ef8-4a6f-9464-01e6768fdf87"/>
+    <refType typeId="ab6e15b9-00a6-4c57-a71c-0852c33a3be4" valueTypeId="b3f33064-1c07-4f80-8bdd-4c6d1c5107e6"/>
+    <selectionType typeId="e486cee2-3065-495b-9468-88f2fe5d614a" valueTypeId="2089d146-4a3e-4804-8171-ed04c9fc800a"/>
+    <listType typeId="e5be2cb5-6f19-4e0b-a414-a6bdf844a20c" valueTypeId="1addc494-9905-47b7-ba70-4117be754582"/>
+    <managerType typeId="906882e5-d84a-47bf-8417-b66bb1670dc1" valueTypeId="b477bdf4-5ae0-4839-a852-666b0652503d"/>
+  </producedTypes>
+  <name>ТипыКонкурентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы конкурентов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТипыКонкурентов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТипыКонкурентов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

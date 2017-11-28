@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="894674b0-ab00-4eae-b281-3272f1d9dca2">
+  <producedTypes>
+    <objectType typeId="e3811648-0aaa-4f94-b58c-dd01359ce551" valueTypeId="171346bf-76cd-44c2-ad86-37db02c04a0a"/>
+    <refType typeId="9a65fcfe-da3f-4253-a81d-43f5927388a1" valueTypeId="815f1b04-d75a-4c36-b486-1fa3fbfcb45d"/>
+    <selectionType typeId="c2921309-6d4c-4196-a0a0-e59d813007fe" valueTypeId="45b6aec9-fa52-47c8-97db-31196ac9aff2"/>
+    <listType typeId="6d0823d8-381d-4f7a-9768-4d218fe9667f" valueTypeId="ecdde1a4-1b52-4574-82ee-a0eda2c2646a"/>
+    <managerType typeId="c4d28250-a9c3-4db1-93ca-ca3f1c7337c3" valueTypeId="5e2b4230-aa0b-4f82-9df8-806b6bbb648c"/>
+  </producedTypes>
+  <name>ТипМониторинга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип мониторинга</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТипМониторинга.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТипМониторинга.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

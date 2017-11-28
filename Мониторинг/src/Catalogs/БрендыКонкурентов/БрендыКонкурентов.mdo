@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db78faa7-32d2-4945-b6bd-d341f7066097">
+  <producedTypes>
+    <objectType typeId="a74f63ec-cdc2-4783-b6f2-20ec935937b6" valueTypeId="b1c0d5c5-f361-4a7b-9572-b75d6763b407"/>
+    <refType typeId="0a7adc8d-caad-4b78-98bf-3302d7e768f7" valueTypeId="e18a37c0-2483-4760-92c3-da3f531b7619"/>
+    <selectionType typeId="713acce0-3e5a-48d8-ac4c-909a577a60a2" valueTypeId="8d4a3b28-03c4-453c-af55-0c3c4b767f8b"/>
+    <listType typeId="542aee13-4f22-40cd-a502-47e7f4bc257d" valueTypeId="21149fc0-3965-4a0e-9e47-f9c488837548"/>
+    <managerType typeId="496775bb-c9fa-4a22-9537-c853fbad614f" valueTypeId="f09887c2-41b5-460e-85f9-238a3c62fc9a"/>
+  </producedTypes>
+  <name>БрендыКонкурентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бренды конкурентов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.БрендыКонкурентов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.БрендыКонкурентов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="273d583a-83b6-46ce-821a-bebb9933e39d">
+    <name>СетевоеЦенообразование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сетевое ценообразование</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+</mdclass:Catalog>

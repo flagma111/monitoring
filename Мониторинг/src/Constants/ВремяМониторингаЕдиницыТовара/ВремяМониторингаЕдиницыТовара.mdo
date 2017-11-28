@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7bea83f3-d90d-4cf4-85b6-8b7d296733c6">
+  <producedTypes>
+    <managerType typeId="323c01a3-db87-4c40-86b5-89c74c3664d5" valueTypeId="6a69965d-8b96-4045-ae5a-b50610dffe63"/>
+    <valueManagerType typeId="308d3a7e-7024-44f6-8ce6-6198c909098a" valueTypeId="045812ab-5c75-4dae-9870-35b1e5e3694c"/>
+  </producedTypes>
+  <name>ВремяМониторингаЕдиницыТовара</name>
+  <synonym>
+    <key>ru</key>
+    <value>Время мониторинга единицы товара (секунд)</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

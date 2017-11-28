@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c382632-69eb-4d6f-b514-1ff0ee734b2a">
+  <producedTypes>
+    <selectionType typeId="2703328a-eb6e-4789-8da1-c7d47bcca381" valueTypeId="f9e75d9e-9609-416c-aae2-f2d0fca6a12e"/>
+    <listType typeId="3e51c17c-5ab3-4fd9-821c-12657bdf325b" valueTypeId="be5f0454-7df4-4a9a-a85d-f001e6bb1023"/>
+    <managerType typeId="c9b78096-c060-42d1-a192-5b9cb629e0a0" valueTypeId="50ceb45d-7faa-4232-80d9-76ecb1ea142b"/>
+    <recordSetType typeId="2225b22d-d3af-47ca-abbd-74810f1543fb" valueTypeId="169e30b3-a5f3-47ca-889d-dffecdffec29"/>
+    <recordKeyType typeId="bc90c31e-e124-42bd-8fa4-808dfe6a0b69" valueTypeId="68ac96ee-0443-49ce-8597-48a22d7c8830"/>
+    <recordType typeId="a5924484-352b-4a2e-a5b0-710fa7382d2e" valueTypeId="79509bab-74b7-488e-9af8-c2fa4b4560d6"/>
+    <recordManagerType typeId="e9d3b8f7-e7c2-4540-9222-67690558e4dd" valueTypeId="cdb7f55e-4f20-42b7-92e2-600dceffcfac"/>
+  </producedTypes>
+  <name>СоответствиеГородов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствие городов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="0d27d914-200a-4676-904e-4af9f745d90e">
+    <name>ВидСоответствия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид соответствия</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ВидыСоответствийНоменклатуры</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8a0a52a3-a69b-4265-a0a7-2e79eadaa2f6">
+    <name>Конкурент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конкурент</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Конкуренты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9c1f2f67-540a-454d-bbdb-17248da90bef">
+    <name>Город</name>
+    <synonym>
+      <key>ru</key>
+      <value>Город</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Города</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1f7f38c4-025c-4ac1-8bc1-d3c920db345d">
+    <name>КодКонкурента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код конкурента</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

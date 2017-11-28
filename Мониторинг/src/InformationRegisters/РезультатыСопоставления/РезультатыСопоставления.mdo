@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35ccb969-c78b-4376-ade3-4d435654e366">
+  <producedTypes>
+    <selectionType typeId="03536c0e-8cca-43aa-b9ba-2a042bf4e91c" valueTypeId="21abff31-b3e1-4f44-916c-6756a6b5c74a"/>
+    <listType typeId="ffb8a005-b52d-462b-a371-a6b5a20a9cf4" valueTypeId="565c291e-41ee-45e3-8929-f35c20883890"/>
+    <managerType typeId="e9376f1f-b412-4624-9aec-5463813983cd" valueTypeId="ecbc8a79-f3f5-469e-a3dc-33f946654f5d"/>
+    <recordSetType typeId="0ea88b38-ff47-4b50-89d6-65b576932f25" valueTypeId="fc7b7d7c-dab7-44e6-9b50-71eafe88de9e"/>
+    <recordKeyType typeId="521945b1-47cd-4248-a18d-93a502f2d2e1" valueTypeId="2472f134-9bca-4fc0-a6e9-b13b78cf22e5"/>
+    <recordType typeId="ecd905b0-d1d7-4779-9daa-49f288687f7f" valueTypeId="d00b5f11-dc15-42cd-87b3-74043de99755"/>
+    <recordManagerType typeId="ce0a6ad9-a69e-4d3f-a52e-3ad08591def7" valueTypeId="3a660b04-e49c-426e-b956-48fcbcd5f450"/>
+  </producedTypes>
+  <name>РезультатыСопоставления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты сопоставления</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="27383f3f-d76c-40cd-a3ce-e86f7cb029a6">
+    <name>ЦенаКонкурента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена конкурента</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="48f48aa0-b7ba-4b04-99dd-66a4fc4e3e71">
+    <name>ИменаКартинок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имена картинок</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="d182eba2-86bf-4c25-b46c-599058690e3d">
+    <name>ТипМониторинга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип мониторинга</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ТипМониторинга</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="13cfc94f-5ce4-441d-98c2-fa66302428bb">
+    <name>Обработано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработано</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="01730b9f-2928-4811-b049-bd4e2abedf51">
+    <name>КомментарийКНоменклатуре</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий к номенклатуре</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="6a976bdb-1b5a-485f-9f08-cca842c956a2">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="13c267a8-7f33-4196-b43d-be1426d8db7d">
+    <name>Конкурент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конкурент</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Конкуренты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5ce08677-04c9-4023-bb1d-fba45a9653c7">
+    <name>ДатаМониторинга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата мониторинга</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
