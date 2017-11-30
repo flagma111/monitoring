@@ -38,6 +38,7 @@
   <subsystems>Subsystem.Документы</subsystems>
   <subsystems>Subsystem.НСИ</subsystems>
   <subsystems>Subsystem.Отчеты</subsystems>
+  <commonPictures>CommonPicture.Ожидание</commonPictures>
   <roles>Role.Администратор</roles>
   <roles>Role.Аналитик</roles>
   <roles>Role.МониторингЦен</roles>
@@ -71,6 +72,7 @@
   <catalogs>Catalog.ТипыКонкурентов</catalogs>
   <catalogs>Catalog.ФизЛица</catalogs>
   <catalogs>Catalog.ФорматыМагазинов</catalogs>
+  <catalogs>Catalog.ШаблоныКомментариев</catalogs>
   <documents>Document.ЗагрузкаРезультатовМониторинга</documents>
   <documents>Document.МониторингЦен</documents>
   <documents>Document.ПереоценкаНоменклатуры</documents>

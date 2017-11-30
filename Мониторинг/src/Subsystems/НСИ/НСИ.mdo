@@ -22,4 +22,5 @@
   <content>CommonForm.ОбщиеНастройки</content>
   <content>InformationRegister.СоответствиеНоменклатуры</content>
   <content>InformationRegister.СоответствиеГородов</content>
+  <content>Catalog.ШаблоныКомментариев</content>
 </mdclass:Subsystem>

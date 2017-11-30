@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2af30ec6-9342-4062-96f1-e9b5ec24bc5f">
+  <producedTypes>
+    <objectType typeId="369b360d-d85d-402e-afca-74ddbe64d5e6" valueTypeId="5c7fe64f-1940-4439-9be9-36bed2ff403b">
+    </objectType>
+    <refType typeId="f52e6b35-383f-4681-86e2-79756e3b8019" valueTypeId="aff9d34d-8f9e-4522-91a1-1f6e2aa75f0a">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="38a77d3d-0e0e-4516-8d6a-6c3b44e8ff58" valueTypeId="96455417-1025-420a-b118-c4cf86cd4b06">
+    </selectionType>
+    <listType typeId="bc727b9d-c4d0-4bf0-a514-a910569ef53e" valueTypeId="54527817-575a-43e2-9094-2906b2be9747">
+    </listType>
+    <managerType typeId="4a86ad73-6dcf-4c45-ac66-deccdd7bbd1f" valueTypeId="b872fa65-1efa-470f-8602-b349d6ae0707">
+    </managerType>
+  </producedTypes>
+  <name>ШаблоныКомментариев</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблоны комментариев</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ШаблоныКомментариев.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ШаблоныКомментариев.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

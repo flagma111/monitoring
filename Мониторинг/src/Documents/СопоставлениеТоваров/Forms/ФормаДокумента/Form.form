@@ -58,7 +58,7 @@
       <id>4</id>
       <title>
         <key>ru</key>
-        <value>от:</value>
+        <value>от</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -373,12 +373,42 @@
         <value>Отбор</value>
       </collapsedRepresentationTitle>
       <collapsed>true</collapsed>
-      <representation>NormalSeparation</representation>
+      <representation>WeakSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
     </extInfo>
+  </items>
+  <items xsi:type="form:Button">
+    <name>Заполнить</name>
+    <id>148</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>ЗаполнитьРасширеннаяПодсказка</name>
+      <id>149</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualButton</type>
+    <commandName>Form.Command.Заполнить</commandName>
+    <representation>Auto</representation>
+    <autoMaxWidth>true</autoMaxWidth>
+    <autoMaxHeight>true</autoMaxHeight>
+    <placementArea>UserCmds</placementArea>
   </items>
   <items xsi:type="form:FormGroup">
     <name>ГруппаТаблицаСопоставления</name>
@@ -396,7 +426,7 @@
       </dataPath>
       <titleLocation>None</titleLocation>
       <items xsi:type="form:FormField">
-        <name>ДеревоИНТСопоставлениеКорректно1</name>
+        <name>ДеревоИНТСопоставлениеКорректно</name>
         <id>71</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -411,7 +441,7 @@
           <name>ДеревоИНТСопоставлениеКорректноПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>ДеревоИНТСопоставлениеКорректно1РасширеннаяПодсказка1</name>
+          <name>ДеревоИНТСопоставлениеКорректноРасширеннаяПодсказка</name>
           <id>73</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -426,7 +456,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ДеревоИНТСопоставлениеКорректно1КонтекстноеМеню1</name>
+          <name>ДеревоИНТСопоставлениеКорректноКонтекстноеМеню</name>
           <id>72</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -446,7 +476,7 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
-        <name>ДеревоИНТНоменклатураКонкурент1</name>
+        <name>ДеревоИНТНоменклатураКонкурент</name>
         <id>74</id>
         <title>
           <key>ru</key>
@@ -461,7 +491,7 @@
           <segments>ДеревоИНТ.НоменклатураКонкурент</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ДеревоИНТНоменклатураКонкурент1РасширеннаяПодсказка1</name>
+          <name>ДеревоИНТНоменклатураКонкурентРасширеннаяПодсказка</name>
           <id>76</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -476,7 +506,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ДеревоИНТНоменклатураКонкурент1КонтекстноеМеню1</name>
+          <name>ДеревоИНТНоменклатураКонкурентКонтекстноеМеню</name>
           <id>75</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -502,7 +532,7 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
-        <name>ДеревоИНТКодИсполнитель1</name>
+        <name>ДеревоИНТКодИсполнитель</name>
         <id>77</id>
         <title>
           <key>ru</key>
@@ -517,7 +547,7 @@
           <segments>ДеревоИНТ.КодИсполнитель</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ДеревоИНТКодИсполнитель1РасширеннаяПодсказка1</name>
+          <name>ДеревоИНТКодИсполнительРасширеннаяПодсказка</name>
           <id>79</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -532,7 +562,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ДеревоИНТКодИсполнитель1КонтекстноеМеню1</name>
+          <name>ДеревоИНТКодИсполнительКонтекстноеМеню</name>
           <id>78</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -558,7 +588,7 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
-        <name>ДеревоИНТЦена1</name>
+        <name>ДеревоИНТЦена</name>
         <id>80</id>
         <title>
           <key>ru</key>
@@ -573,7 +603,7 @@
           <segments>ДеревоИНТ.Цена</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ДеревоИНТЦена1РасширеннаяПодсказка1</name>
+          <name>ДеревоИНТЦенаРасширеннаяПодсказка</name>
           <id>82</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -588,7 +618,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ДеревоИНТЦена1КонтекстноеМеню1</name>
+          <name>ДеревоИНТЦенаКонтекстноеМеню</name>
           <id>81</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -613,7 +643,7 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
-        <name>ДеревоИНТКомментарий1</name>
+        <name>ДеревоИНТКомментарий</name>
         <id>83</id>
         <title>
           <key>ru</key>
@@ -628,7 +658,7 @@
           <segments>ДеревоИНТ.КатегорияКомментарий</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ДеревоИНТКомментарий1РасширеннаяПодсказка1</name>
+          <name>ДеревоИНТКомментарийРасширеннаяПодсказка</name>
           <id>85</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -643,7 +673,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ДеревоИНТКомментарий1КонтекстноеМеню1</name>
+          <name>ДеревоИНТКомментарийКонтекстноеМеню</name>
           <id>84</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -667,7 +697,7 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
-        <name>ДеревоИНТДатаМониторинга1</name>
+        <name>ДеревоИНТДатаМониторинга</name>
         <id>132</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -678,7 +708,7 @@
           <segments>ДеревоИНТ.ДатаМониторинга</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ДеревоИНТДатаМониторинга1РасширеннаяПодсказка1</name>
+          <name>ДеревоИНТДатаМониторингаРасширеннаяПодсказка</name>
           <id>134</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -693,7 +723,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ДеревоИНТДатаМониторинга1КонтекстноеМеню1</name>
+          <name>ДеревоИНТДатаМониторингаКонтекстноеМеню</name>
           <id>133</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1517,35 +1547,6 @@
       <placementArea>UserCmds</placementArea>
     </items>
     <items xsi:type="form:Button">
-      <name>ФормаЗаполнитьТЧ</name>
-      <id>128</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <extendedTooltip>
-        <name>ФормаЗаполнитьТЧРасширеннаяПодсказка1</name>
-        <id>129</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <commandName>Form.Command.ЗаполнитьТЧ</commandName>
-      <representation>Auto</representation>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <placementArea>UserCmds</placementArea>
-    </items>
-    <items xsi:type="form:Button">
       <name>ФормаПроверитьРезультат</name>
       <id>130</id>
       <visible>true</visible>
@@ -1719,6 +1720,7 @@
       <id>5</id>
       <valueType>
         <types>String</types>
+        <types>CatalogRef.ШаблоныКомментариев</types>
         <stringQualifiers/>
       </valueType>
       <view>
@@ -1815,6 +1817,24 @@
       <id>10</id>
       <valueType>
         <types>CatalogRef.ТипМониторинга</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>КомментарийКНоменклатуре</name>
+      <title>
+        <key>ru</key>
+        <value>Комментарий к номенклатуре</value>
+      </title>
+      <id>13</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
       </valueType>
       <view>
         <common>true</common>
@@ -2005,10 +2025,10 @@
     </action>
   </formCommands>
   <formCommands>
-    <name>ЗаполнитьТЧ</name>
+    <name>Заполнить</name>
     <title>
       <key>ru</key>
-      <value>Заполнить ТЧ</value>
+      <value>Заполнить</value>
     </title>
     <id>2</id>
     <toolTip>
@@ -2018,6 +2038,9 @@
     <use>
       <common>true</common>
     </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.PrintImmediately</picture>
+    </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ЗаполнитьТЧ</name>

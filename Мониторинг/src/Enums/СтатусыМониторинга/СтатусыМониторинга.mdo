@@ -51,4 +51,25 @@
       <value>Сопоставление корректно</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="87f74438-ff8d-41a5-a4bc-8dd080f7ae7e">
+    <name>СопоставлениеОжидается</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сопоставление ожидается</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2e7cbcd7-21ba-4f38-a5ad-d3848d2bda23">
+    <name>ПереоценкаОжидается</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переоценка ожидается</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1239187c-d73f-488c-af5e-b0585521331f">
+    <name>СогласованиеОжидается</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласование ожидается</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

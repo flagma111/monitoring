@@ -83,10 +83,10 @@
       <rowType typeId="b58de604-4632-4d59-bc0a-27344499e3e7" valueTypeId="db8fa41f-f73f-4117-b096-fc566ee10c13">
       </rowType>
     </producedTypes>
-    <name>ТЧ_Сопоставление</name>
+    <name>Сопоставление</name>
     <synonym>
       <key>ru</key>
-      <value>Т ч сопоставление</value>
+      <value>Сопоставление</value>
     </synonym>
     <comment></comment>
     <attributes uuid="abc815d8-75b2-42ee-94d1-24c4cce18745">
@@ -161,8 +161,7 @@
       </synonym>
       <comment></comment>
       <type>
-        <types>String</types>
-        <stringQualifiers/>
+        <types>CatalogRef.ШаблоныКомментариев</types>
       </type>
       <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
@@ -237,6 +236,19 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a461935a-4d19-4569-89a5-6436e661b1c8">
+      <name>КомментарийКНоменклатуре</name>
+      <synonym>
+        <key>ru</key>
+        <value>Комментарий к номенклатуре</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
     </attributes>
   </tabularSections>
   <tabularSections uuid="259a3936-650d-48c0-b72e-d427a6a1ca1f">

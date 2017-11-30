@@ -196,11 +196,10 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
-    <master>true</master>
-    <mainFilter>true</mainFilter>
   </dimensions>
   <dimensions uuid="324f71d3-320a-42f9-9ee9-0feb8750bd99">
     <name>Номенклатура</name>
@@ -216,11 +215,10 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
-    <master>true</master>
-    <mainFilter>true</mainFilter>
   </dimensions>
   <dimensions uuid="84bb8227-c4da-4e1d-9614-64fa41d6af4c">
     <name>ДатаМониторинга</name>
