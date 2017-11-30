@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35ccb969-c78b-4376-ade3-4d435654e366">
   <producedTypes>
-    <selectionType typeId="03536c0e-8cca-43aa-b9ba-2a042bf4e91c" valueTypeId="21abff31-b3e1-4f44-916c-6756a6b5c74a"/>
-    <listType typeId="ffb8a005-b52d-462b-a371-a6b5a20a9cf4" valueTypeId="565c291e-41ee-45e3-8929-f35c20883890"/>
-    <managerType typeId="e9376f1f-b412-4624-9aec-5463813983cd" valueTypeId="ecbc8a79-f3f5-469e-a3dc-33f946654f5d"/>
-    <recordSetType typeId="0ea88b38-ff47-4b50-89d6-65b576932f25" valueTypeId="fc7b7d7c-dab7-44e6-9b50-71eafe88de9e"/>
-    <recordKeyType typeId="521945b1-47cd-4248-a18d-93a502f2d2e1" valueTypeId="2472f134-9bca-4fc0-a6e9-b13b78cf22e5"/>
-    <recordType typeId="ecd905b0-d1d7-4779-9daa-49f288687f7f" valueTypeId="d00b5f11-dc15-42cd-87b3-74043de99755"/>
-    <recordManagerType typeId="ce0a6ad9-a69e-4d3f-a52e-3ad08591def7" valueTypeId="3a660b04-e49c-426e-b956-48fcbcd5f450"/>
+    <selectionType typeId="03536c0e-8cca-43aa-b9ba-2a042bf4e91c" valueTypeId="21abff31-b3e1-4f44-916c-6756a6b5c74a">
+    </selectionType>
+    <listType typeId="ffb8a005-b52d-462b-a371-a6b5a20a9cf4" valueTypeId="565c291e-41ee-45e3-8929-f35c20883890">
+    </listType>
+    <managerType typeId="e9376f1f-b412-4624-9aec-5463813983cd" valueTypeId="ecbc8a79-f3f5-469e-a3dc-33f946654f5d">
+    </managerType>
+    <recordSetType typeId="0ea88b38-ff47-4b50-89d6-65b576932f25" valueTypeId="fc7b7d7c-dab7-44e6-9b50-71eafe88de9e">
+    </recordSetType>
+    <recordKeyType typeId="521945b1-47cd-4248-a18d-93a502f2d2e1" valueTypeId="2472f134-9bca-4fc0-a6e9-b13b78cf22e5">
+    </recordKeyType>
+    <recordType typeId="ecd905b0-d1d7-4779-9daa-49f288687f7f" valueTypeId="d00b5f11-dc15-42cd-87b3-74043de99755">
+    </recordType>
+    <recordManagerType typeId="ce0a6ad9-a69e-4d3f-a52e-3ad08591def7" valueTypeId="3a660b04-e49c-426e-b956-48fcbcd5f450">
+    </recordManagerType>
   </producedTypes>
   <name>РезультатыСопоставления</name>
   <synonym>
@@ -123,6 +130,7 @@
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
     <fullTextSearch>Use</fullTextSearch>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -142,6 +150,7 @@
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
     <fullTextSearch>Use</fullTextSearch>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -164,6 +173,7 @@
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
     <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
     <fillValue xsi:type="core:UndefinedValue"/>

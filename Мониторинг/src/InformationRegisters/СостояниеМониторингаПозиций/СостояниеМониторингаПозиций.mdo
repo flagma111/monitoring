@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="75c309d0-0f2b-40e7-ba8c-fc8f75ffed4e">
+  <producedTypes>
+    <selectionType typeId="d84a05c9-3bcf-4393-80e2-1053f5412646" valueTypeId="e34ef777-321f-49a4-a990-ea659a28890b">
+    </selectionType>
+    <listType typeId="2aa31a83-e04d-40d1-b348-d91f3c878b65" valueTypeId="3975ffd8-8163-44f4-ad7b-a1485372daca">
+    </listType>
+    <managerType typeId="cec596b7-236e-4e20-92f0-6bd819643a81" valueTypeId="05f0b45c-ec5f-4a50-9bb8-15e35c260f2c">
+    </managerType>
+    <recordSetType typeId="ac256bc5-ebf2-40ec-8fbb-1c3bc8d5867b" valueTypeId="5aacf157-f936-421f-8c6c-6a403a2f5c3f">
+    </recordSetType>
+    <recordKeyType typeId="f957c0c9-e9d0-4632-a5cc-2934b5a6463d" valueTypeId="bcc48ddd-3281-4a9a-8cab-e298d14cc3e0">
+    </recordKeyType>
+    <recordType typeId="8dd1491c-d794-4629-abd0-03afe0ae31dc" valueTypeId="732895f2-a266-44d5-80ff-160c12c4671d">
+    </recordType>
+    <recordManagerType typeId="eb2eb6f9-417b-45eb-8cc8-0702ef8338b3" valueTypeId="f4932ffd-b30f-45f5-aff3-eddc5afd157b">
+    </recordManagerType>
+  </producedTypes>
+  <name>СостояниеМониторингаПозиций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние мониторинга позиций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="4faac5ad-3a9f-4bc9-87a3-60dce7109603">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="8e979a05-5ba3-48c0-92a1-072da029bfa0">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="a55688b8-8e23-4e88-a7de-961a48543fbd">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыМониторинга</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="9c3a5372-a04a-4f1b-8c26-4d425b26e27c">
+    <name>Конкурент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конкурент</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Конкуренты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="28f7c92c-0271-4962-b4e7-26758c447e62">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="b6bdcc35-19ab-482b-ad46-0143d6335256">
+    <name>ДатаМониторинга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата мониторинга</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82118321-3d19-414d-8e99-b767b878def6">
+  <producedTypes>
+    <refType typeId="e9d9d436-ef37-4235-8999-bd5f672ab77b" valueTypeId="4ee84f4d-ad73-4dd7-8465-d1123383130f">
+      <emptyRef/>
+    </refType>
+    <listType typeId="88b40072-feef-4c80-8420-636587bb1437" valueTypeId="fb3cedf0-aba4-4a41-868d-f96537eb586c">
+    </listType>
+    <managerType typeId="5080acf1-ebbb-4b39-8a40-1bd897cef229" valueTypeId="143587b5-4e0e-4ce6-85d1-5ea6b00ee081">
+    </managerType>
+  </producedTypes>
+  <name>СтатусыМониторинга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы мониторинга</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1b3eac70-543a-4bcb-948f-a0f297ee76c9">
+    <name>ПереоценкаВыполнена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переоценка выполнена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="34476f7e-0c22-4fb0-9e76-3f4d5ae06eba">
+    <name>ПереоценкаОдобрена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переоценка одобрена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9df29e1a-c269-4ef1-b9c3-a0668832c099">
+    <name>СопоставлениеНекорректно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сопоставление некорректно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="65e218fb-54e2-4ead-8280-6de37576639b">
+    <name>ПереоценкаОтклонена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переоценка отклонена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aaab79d7-88e3-40f3-87a2-d93abb89e9fb">
+    <name>СопоставлениеКорректно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сопоставление корректно</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

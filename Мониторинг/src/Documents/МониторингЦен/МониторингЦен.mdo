@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4fe5c8f-6fb5-4393-9707-f2f4ce024b8b">
   <producedTypes>
-    <objectType typeId="fea9acb1-8b71-4576-b300-4daae3785b5e" valueTypeId="c0d65159-3666-4197-a173-1d836ddb730b"/>
-    <refType typeId="0286cd0b-9016-4d9d-8a93-c360657cd6bf" valueTypeId="f2f248c6-687c-49df-9e19-c67a625b196e"/>
-    <selectionType typeId="c07b3af4-1090-4f31-b1f1-0073344f9d65" valueTypeId="f9783cf3-efe4-4852-8481-569e4b9c1481"/>
-    <listType typeId="00343d78-3d31-438f-8524-fc661aa43143" valueTypeId="bb032adf-2a44-4ed5-85ff-fa42041542f9"/>
-    <managerType typeId="d7ac41fd-67b2-4b6c-b660-30f8d1f3b35f" valueTypeId="92c91fab-6b09-443d-a1be-73f15e668289"/>
+    <objectType typeId="fea9acb1-8b71-4576-b300-4daae3785b5e" valueTypeId="c0d65159-3666-4197-a173-1d836ddb730b">
+    </objectType>
+    <refType typeId="0286cd0b-9016-4d9d-8a93-c360657cd6bf" valueTypeId="f2f248c6-687c-49df-9e19-c67a625b196e">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="c07b3af4-1090-4f31-b1f1-0073344f9d65" valueTypeId="f9783cf3-efe4-4852-8481-569e4b9c1481">
+    </selectionType>
+    <listType typeId="00343d78-3d31-438f-8524-fc661aa43143" valueTypeId="bb032adf-2a44-4ed5-85ff-fa42041542f9">
+    </listType>
+    <managerType typeId="d7ac41fd-67b2-4b6c-b660-30f8d1f3b35f" valueTypeId="92c91fab-6b09-443d-a1be-73f15e668289">
+    </managerType>
   </producedTypes>
   <name>МониторингЦен</name>
   <synonym>
@@ -25,6 +31,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.МониторингЦен.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>InformationRegister.СостояниеМониторингаПозиций</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="fe6a8ad5-736c-470f-9230-a1f6330d94f8">
@@ -71,8 +78,10 @@
   </forms>
   <tabularSections uuid="080e3fcf-0597-48d3-991c-d724ea291c17">
     <producedTypes>
-      <objectType typeId="3c8a4c66-b978-45a2-b4bd-068b6823778e" valueTypeId="cdcfa7a0-c094-414c-bf15-75de0cbbded3"/>
-      <rowType typeId="c4d7ede3-47cf-42d2-9567-5f0531d710ec" valueTypeId="c047b8e8-e39a-4144-844d-5655216e0853"/>
+      <objectType typeId="3c8a4c66-b978-45a2-b4bd-068b6823778e" valueTypeId="cdcfa7a0-c094-414c-bf15-75de0cbbded3">
+      </objectType>
+      <rowType typeId="c4d7ede3-47cf-42d2-9567-5f0531d710ec" valueTypeId="c047b8e8-e39a-4144-844d-5655216e0853">
+      </rowType>
     </producedTypes>
     <name>ТЧ_Мониторинг</name>
     <synonym>

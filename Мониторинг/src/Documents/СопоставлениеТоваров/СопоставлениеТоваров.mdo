@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ad8725d-e428-4552-a0d0-031a0c55501f">
   <producedTypes>
-    <objectType typeId="6b61e6b8-315c-4cc8-987b-5337cb635f6b" valueTypeId="c134e9e3-eba1-42e8-bcf9-be297cbacc47"/>
-    <refType typeId="66e21e23-0780-4270-ab05-ad578693e5aa" valueTypeId="d0b3f892-de35-41bc-bd7e-6c0aa0a7dd34"/>
-    <selectionType typeId="fec8882e-124d-4827-ac3e-e71ad056e5cc" valueTypeId="b46ac3a1-5d64-4f72-a416-f00272b3ead1"/>
-    <listType typeId="faabf6c5-946b-433b-989f-f049e1a8373c" valueTypeId="c59246a9-6cfd-47f2-a1e5-d0a9693f29ed"/>
-    <managerType typeId="d50da173-f772-4c22-8e87-eeb9d85a65b0" valueTypeId="48eab7d9-ffe8-4dc8-9d4d-3ddc6c2b9d45"/>
+    <objectType typeId="6b61e6b8-315c-4cc8-987b-5337cb635f6b" valueTypeId="c134e9e3-eba1-42e8-bcf9-be297cbacc47">
+    </objectType>
+    <refType typeId="66e21e23-0780-4270-ab05-ad578693e5aa" valueTypeId="d0b3f892-de35-41bc-bd7e-6c0aa0a7dd34">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="fec8882e-124d-4827-ac3e-e71ad056e5cc" valueTypeId="b46ac3a1-5d64-4f72-a416-f00272b3ead1">
+    </selectionType>
+    <listType typeId="faabf6c5-946b-433b-989f-f049e1a8373c" valueTypeId="c59246a9-6cfd-47f2-a1e5-d0a9693f29ed">
+    </listType>
+    <managerType typeId="d50da173-f772-4c22-8e87-eeb9d85a65b0" valueTypeId="48eab7d9-ffe8-4dc8-9d4d-3ddc6c2b9d45">
+    </managerType>
   </producedTypes>
   <name>СопоставлениеТоваров</name>
   <synonym>
@@ -25,6 +31,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.СопоставлениеТоваров.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>InformationRegister.СостояниеМониторингаПозиций</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="ecfbcae1-5012-4b73-a22f-3b37adca1c4a">
@@ -59,7 +66,7 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
-  <forms uuid="6db033a0-7ece-4e9c-93fa-f0037733a475">
+  <forms uuid="0fbc23cb-b9a3-4981-b854-68fd3f1fa5f8">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>
@@ -71,8 +78,10 @@
   </forms>
   <tabularSections uuid="836d7ea1-e389-4b54-8d69-94972532b7ab">
     <producedTypes>
-      <objectType typeId="cd4104ba-cdf2-4e34-918f-43d4e15da6e1" valueTypeId="c59a40d8-f4a4-4834-884d-23954ef277b2"/>
-      <rowType typeId="b58de604-4632-4d59-bc0a-27344499e3e7" valueTypeId="db8fa41f-f73f-4117-b096-fc566ee10c13"/>
+      <objectType typeId="cd4104ba-cdf2-4e34-918f-43d4e15da6e1" valueTypeId="c59a40d8-f4a4-4834-884d-23954ef277b2">
+      </objectType>
+      <rowType typeId="b58de604-4632-4d59-bc0a-27344499e3e7" valueTypeId="db8fa41f-f73f-4117-b096-fc566ee10c13">
+      </rowType>
     </producedTypes>
     <name>ТЧ_Сопоставление</name>
     <synonym>
@@ -229,27 +238,13 @@
       <maxValue xsi:type="core:UndefinedValue"/>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="af4b01bc-1f58-4ba3-b824-3addfe0f51a0">
-      <name>КомментарийКНоменклатуре</name>
-      <synonym>
-        <key>ru</key>
-        <value>Комментарий к номенклатуре</value>
-      </synonym>
-      <comment></comment>
-      <type>
-        <types>String</types>
-        <stringQualifiers/>
-      </type>
-      <mask></mask>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
   </tabularSections>
   <tabularSections uuid="259a3936-650d-48c0-b72e-d427a6a1ca1f">
     <producedTypes>
-      <objectType typeId="b5e766af-b625-478f-8abf-8de617aab1be" valueTypeId="e7c076dd-2bb4-4f22-8158-c64c07acfc0c"/>
-      <rowType typeId="2381d93a-ff38-403c-bc6b-4de29d6aed06" valueTypeId="c38952c4-30b4-42d2-8ad0-414402f6c483"/>
+      <objectType typeId="b5e766af-b625-478f-8abf-8de617aab1be" valueTypeId="e7c076dd-2bb4-4f22-8158-c64c07acfc0c">
+      </objectType>
+      <rowType typeId="2381d93a-ff38-403c-bc6b-4de29d6aed06" valueTypeId="c38952c4-30b4-42d2-8ad0-414402f6c483">
+      </rowType>
     </producedTypes>
     <name>ТЧ_РезультатОтбора</name>
     <synonym>

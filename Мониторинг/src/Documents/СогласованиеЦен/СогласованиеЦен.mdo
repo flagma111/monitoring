@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="53f3be46-85bb-45ed-aa73-793cf5adbcff">
   <producedTypes>
-    <objectType typeId="f9a9c5e7-a7da-4389-a020-f594c8a650a0" valueTypeId="f18d2bd1-f8b8-4fee-9421-2a2b4db3ff6f"/>
-    <refType typeId="46a1013a-a58b-4cb6-940f-40f631691105" valueTypeId="88fc9fc8-191b-4d64-94ab-9334845b32f8"/>
-    <selectionType typeId="438aa318-abc0-4b65-8d0b-dab81fa9faa1" valueTypeId="2aede535-db75-4b9d-ab7e-2fff56bf52d0"/>
-    <listType typeId="93cafd1f-c621-4cb5-b5a9-80d94efb63c5" valueTypeId="a002f02a-57e4-4418-b080-a6e675483b01"/>
-    <managerType typeId="0457c842-af3f-4b63-926b-911e3d763735" valueTypeId="596f0fcf-6453-4e3d-87d2-c11121f95dc7"/>
+    <objectType typeId="f9a9c5e7-a7da-4389-a020-f594c8a650a0" valueTypeId="f18d2bd1-f8b8-4fee-9421-2a2b4db3ff6f">
+    </objectType>
+    <refType typeId="46a1013a-a58b-4cb6-940f-40f631691105" valueTypeId="88fc9fc8-191b-4d64-94ab-9334845b32f8">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="438aa318-abc0-4b65-8d0b-dab81fa9faa1" valueTypeId="2aede535-db75-4b9d-ab7e-2fff56bf52d0">
+    </selectionType>
+    <listType typeId="93cafd1f-c621-4cb5-b5a9-80d94efb63c5" valueTypeId="a002f02a-57e4-4418-b080-a6e675483b01">
+    </listType>
+    <managerType typeId="0457c842-af3f-4b63-926b-911e3d763735" valueTypeId="596f0fcf-6453-4e3d-87d2-c11121f95dc7">
+    </managerType>
   </producedTypes>
   <name>СогласованиеЦен</name>
   <synonym>
@@ -25,6 +31,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.СогласованиеЦен.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>InformationRegister.СостояниеМониторингаПозиций</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="0ac555c8-6661-4735-a053-5716c7356397">
@@ -71,8 +78,10 @@
   </forms>
   <tabularSections uuid="3e0984e6-8e64-45f9-ba8d-9ca6a5687900">
     <producedTypes>
-      <objectType typeId="ff9f098d-47fe-463a-a122-2a370f5d13a9" valueTypeId="1bef5980-ea49-43c6-a9ec-a4f4796fc345"/>
-      <rowType typeId="aa0fe6b8-3f07-4a66-b94d-f76246ea71e7" valueTypeId="89f258e0-82c6-4c9c-9b3d-64cb2e564360"/>
+      <objectType typeId="ff9f098d-47fe-463a-a122-2a370f5d13a9" valueTypeId="1bef5980-ea49-43c6-a9ec-a4f4796fc345">
+      </objectType>
+      <rowType typeId="aa0fe6b8-3f07-4a66-b94d-f76246ea71e7" valueTypeId="89f258e0-82c6-4c9c-9b3d-64cb2e564360">
+      </rowType>
     </producedTypes>
     <name>ТЧ_Согласование</name>
     <synonym>

@@ -1,68 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ConditionalAppearance xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-			<item>
-				<selection>
-					<item>
-						<field>ДеревоИНТ</field>
-					</item>
-				</selection>
-				<filter>
-					<item xsi:type="FilterItemComparison">
-						<left xsi:type="dcscor:Field">ДеревоИНТ.Уровень</left>
-						<comparisonType>Equal</comparisonType>
-						<right xsi:type="xs:decimal">1</right>
-					</item>
-				</filter>
-				<appearance>
-					<dcscor:item xsi:type="SettingsParameterValue">
-						<dcscor:parameter>ЦветФона</dcscor:parameter>
-						<dcscor:value xsi:type="v8ui:Color">#CCFFFF</dcscor:value>
-					</dcscor:item>
-				</appearance>
-			</item>
-			<item>
-				<selection>
-					<item>
-						<field>ДеревоИНТ</field>
-					</item>
-				</selection>
-				<filter>
-					<item xsi:type="FilterItemComparison">
-						<left xsi:type="dcscor:Field">ДеревоИНТ.Уровень</left>
-						<comparisonType>Equal</comparisonType>
-						<right xsi:type="xs:decimal">2</right>
-					</item>
-				</filter>
-				<appearance>
-					<dcscor:item xsi:type="SettingsParameterValue">
-						<dcscor:parameter>ЦветФона</dcscor:parameter>
-						<dcscor:value xsi:type="v8ui:Color">#CCFFCC</dcscor:value>
-					</dcscor:item>
-				</appearance>
-			</item>
-			<item>
-				<selection>
-					<item>
-						<field>ДеревоИНТКомментарий</field>
-					</item>
-				</selection>
-				<filter>
-					<item xsi:type="FilterItemComparison">
-						<left xsi:type="dcscor:Field">ДеревоИНТ.СопоставлениеКорректно</left>
-						<comparisonType>Equal</comparisonType>
-						<right xsi:type="xs:decimal">0</right>
-					</item>
-					<item xsi:type="FilterItemComparison">
-						<left xsi:type="dcscor:Field">ДеревоИНТ.Уровень</left>
-						<comparisonType>Equal</comparisonType>
-						<right xsi:type="xs:decimal">2</right>
-					</item>
-				</filter>
-				<appearance>
-					<dcscor:item xsi:type="SettingsParameterValue">
-						<dcscor:parameter>ЦветФона</dcscor:parameter>
-						<dcscor:value xsi:type="v8ui:Color">#FFFFFF</dcscor:value>
-					</dcscor:item>
-				</appearance>
-			</item>
-		</ConditionalAppearance>
+<ConditionalAppearance xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:chm="http://v8.1c.ru/8.2/data/chart" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings">
+	<dcsset:item>
+		<dcsset:selection>
+			<dcsset:item>
+				<dcsset:field>ДеревоИНТ</dcsset:field>
+			</dcsset:item>
+		</dcsset:selection>
+		<dcsset:filter>
+			<dcsset:item xsi:type="dcsset:FilterItemComparison">
+				<dcsset:left xsi:type="dcscor:Field">ДеревоИНТ.Уровень</dcsset:left>
+				<dcsset:comparisonType>Equal</dcsset:comparisonType>
+				<dcsset:right xsi:type="xs:decimal">1</dcsset:right>
+				<dcsset:application>Items</dcsset:application>
+			</dcsset:item>
+		</dcsset:filter>
+		<dcsset:appearance>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>ЦветФона</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Color">#ccffff</dcscor:value>
+			</dcscor:item>
+		</dcsset:appearance>
+		<dcsset:useInGroup>Use</dcsset:useInGroup>
+		<dcsset:useInHierarchicalGroup>Use</dcsset:useInHierarchicalGroup>
+		<dcsset:useInOverall>Use</dcsset:useInOverall>
+		<dcsset:useInFieldsHeader>Use</dcsset:useInFieldsHeader>
+		<dcsset:useInHeader>Use</dcsset:useInHeader>
+		<dcsset:useInParameters>Use</dcsset:useInParameters>
+		<dcsset:useInFilter>Use</dcsset:useInFilter>
+	</dcsset:item>
+	<dcsset:item>
+		<dcsset:selection>
+			<dcsset:item>
+				<dcsset:field>ДеревоИНТ</dcsset:field>
+			</dcsset:item>
+		</dcsset:selection>
+		<dcsset:filter>
+			<dcsset:item xsi:type="dcsset:FilterItemComparison">
+				<dcsset:left xsi:type="dcscor:Field">ДеревоИНТ.Уровень</dcsset:left>
+				<dcsset:comparisonType>Equal</dcsset:comparisonType>
+				<dcsset:right xsi:type="xs:decimal">2</dcsset:right>
+				<dcsset:application>Items</dcsset:application>
+			</dcsset:item>
+		</dcsset:filter>
+		<dcsset:appearance>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>ЦветФона</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Color">#ccffcc</dcscor:value>
+			</dcscor:item>
+		</dcsset:appearance>
+		<dcsset:useInGroup>Use</dcsset:useInGroup>
+		<dcsset:useInHierarchicalGroup>Use</dcsset:useInHierarchicalGroup>
+		<dcsset:useInOverall>Use</dcsset:useInOverall>
+		<dcsset:useInFieldsHeader>Use</dcsset:useInFieldsHeader>
+		<dcsset:useInHeader>Use</dcsset:useInHeader>
+		<dcsset:useInParameters>Use</dcsset:useInParameters>
+		<dcsset:useInFilter>Use</dcsset:useInFilter>
+	</dcsset:item>
+	<dcsset:item>
+		<dcsset:selection>
+			<dcsset:item>
+				<dcsset:field>ДеревоИНТКомментарий</dcsset:field>
+			</dcsset:item>
+		</dcsset:selection>
+		<dcsset:filter>
+			<dcsset:item xsi:type="dcsset:FilterItemComparison">
+				<dcsset:left xsi:type="dcscor:Field">ДеревоИНТ.СопоставлениеКорректно</dcsset:left>
+				<dcsset:comparisonType>Equal</dcsset:comparisonType>
+				<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+				<dcsset:application>Items</dcsset:application>
+			</dcsset:item>
+			<dcsset:item xsi:type="dcsset:FilterItemComparison">
+				<dcsset:left xsi:type="dcscor:Field">ДеревоИНТ.Уровень</dcsset:left>
+				<dcsset:comparisonType>Equal</dcsset:comparisonType>
+				<dcsset:right xsi:type="xs:decimal">2</dcsset:right>
+				<dcsset:application>Items</dcsset:application>
+			</dcsset:item>
+		</dcsset:filter>
+		<dcsset:appearance>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>ЦветФона</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Color">#ffffff</dcscor:value>
+			</dcscor:item>
+		</dcsset:appearance>
+		<dcsset:useInGroup>Use</dcsset:useInGroup>
+		<dcsset:useInHierarchicalGroup>Use</dcsset:useInHierarchicalGroup>
+		<dcsset:useInOverall>Use</dcsset:useInOverall>
+		<dcsset:useInFieldsHeader>Use</dcsset:useInFieldsHeader>
+		<dcsset:useInHeader>Use</dcsset:useInHeader>
+		<dcsset:useInParameters>Use</dcsset:useInParameters>
+		<dcsset:useInFilter>Use</dcsset:useInFilter>
+	</dcsset:item>
+</ConditionalAppearance>

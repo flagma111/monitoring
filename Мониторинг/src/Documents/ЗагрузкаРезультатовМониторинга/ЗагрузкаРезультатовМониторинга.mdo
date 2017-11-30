@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11e74468-812b-497d-91e5-bb37d0eb00a7">
   <producedTypes>
-    <objectType typeId="0fb36937-f4fe-4dfd-a205-cd629d981dcc" valueTypeId="72825ae6-63db-4226-823b-9cb7d0b0fa7e"/>
-    <refType typeId="7e4fe825-fb68-4ca2-94a4-405921e5a852" valueTypeId="254e3ac7-2511-48fc-9f72-9d2d822485d5"/>
-    <selectionType typeId="5c3dda19-f6e8-4d15-8444-99bf48928045" valueTypeId="d0c519d0-7793-4dfe-abf0-49db5f5d8d18"/>
-    <listType typeId="3dddee7c-b761-42e9-b3fa-dc471707ea3a" valueTypeId="b09eee8f-f67d-47f5-aacb-240d04c0bf74"/>
-    <managerType typeId="e3d1645c-d752-448b-9dfc-3d452fcef6e1" valueTypeId="0602dfed-8419-4ff6-866e-a46927202e4e"/>
+    <objectType typeId="0fb36937-f4fe-4dfd-a205-cd629d981dcc" valueTypeId="72825ae6-63db-4226-823b-9cb7d0b0fa7e">
+    </objectType>
+    <refType typeId="7e4fe825-fb68-4ca2-94a4-405921e5a852" valueTypeId="254e3ac7-2511-48fc-9f72-9d2d822485d5">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="5c3dda19-f6e8-4d15-8444-99bf48928045" valueTypeId="d0c519d0-7793-4dfe-abf0-49db5f5d8d18">
+    </selectionType>
+    <listType typeId="3dddee7c-b761-42e9-b3fa-dc471707ea3a" valueTypeId="b09eee8f-f67d-47f5-aacb-240d04c0bf74">
+    </listType>
+    <managerType typeId="e3d1645c-d752-448b-9dfc-3d452fcef6e1" valueTypeId="0602dfed-8419-4ff6-866e-a46927202e4e">
+    </managerType>
   </producedTypes>
   <name>ЗагрузкаРезультатовМониторинга</name>
   <synonym>
@@ -26,6 +32,7 @@
   <autonumbering>true</autonumbering>
   <defaultListForm>Document.ЗагрузкаРезультатовМониторинга.Form.ФормаСписка</defaultListForm>
   <registerRecords>InformationRegister.ЦеныКонкурентов</registerRecords>
+  <registerRecords>InformationRegister.РезультатыМониторинга</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="eb7c4ac1-cc9a-4a9e-a372-dc2b5b6136d0">
@@ -175,8 +182,10 @@
   </forms>
   <tabularSections uuid="d7820d4d-af20-4eba-9415-a0ef26650f0f">
     <producedTypes>
-      <objectType typeId="5677a137-323d-4ae7-995b-9ba1b4114b19" valueTypeId="3702204f-4e6e-4a3b-802d-cfd6a1d90c6d"/>
-      <rowType typeId="ed7c6c6d-ec2c-4d23-8e44-e9f3f40bffb2" valueTypeId="fe2be844-bf8d-448a-9687-1def0a606bd9"/>
+      <objectType typeId="5677a137-323d-4ae7-995b-9ba1b4114b19" valueTypeId="3702204f-4e6e-4a3b-802d-cfd6a1d90c6d">
+      </objectType>
+      <rowType typeId="ed7c6c6d-ec2c-4d23-8e44-e9f3f40bffb2" valueTypeId="fe2be844-bf8d-448a-9687-1def0a606bd9">
+      </rowType>
     </producedTypes>
     <name>РезультатыМониторинга</name>
     <synonym>
