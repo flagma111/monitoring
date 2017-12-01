@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="76a3fdab-17e4-44a8-9246-83d0f641d7b1">
   <producedTypes>
-    <selectionType typeId="64060791-74bf-4c60-8efa-43ac84e39851" valueTypeId="f5e08b9e-7446-487f-88be-22645190b9bf"/>
-    <listType typeId="be83d6dd-c8bb-4d14-8218-47cda8813ecd" valueTypeId="023e388e-5adb-4236-91d0-5b21b27a6b42"/>
-    <managerType typeId="d8eff2d4-3430-4b98-bfa3-1b5eb5c9b817" valueTypeId="4411714f-5806-4e02-85dc-7e6a6e394784"/>
-    <recordSetType typeId="2e5a4d9b-3c1e-48b6-b0dc-1396237b2d22" valueTypeId="9c6068f1-b7e0-4633-a912-7aaa8df0cf20"/>
-    <recordKeyType typeId="3fa963a3-d961-451a-912b-4a49100a33a2" valueTypeId="432ba802-1b6b-412c-8a4c-d7fdc3bff995"/>
-    <recordType typeId="466fa89e-a92f-49de-bbcf-3d98cd120235" valueTypeId="121ad308-7a77-4746-b14c-ddeb22c7efef"/>
-    <recordManagerType typeId="54fb22a7-302c-467c-aa8c-f9f53fc1f9b6" valueTypeId="8867a286-9e6b-4421-a3a5-91e84870babb"/>
+    <selectionType typeId="64060791-74bf-4c60-8efa-43ac84e39851" valueTypeId="f5e08b9e-7446-487f-88be-22645190b9bf">
+    </selectionType>
+    <listType typeId="be83d6dd-c8bb-4d14-8218-47cda8813ecd" valueTypeId="023e388e-5adb-4236-91d0-5b21b27a6b42">
+    </listType>
+    <managerType typeId="d8eff2d4-3430-4b98-bfa3-1b5eb5c9b817" valueTypeId="4411714f-5806-4e02-85dc-7e6a6e394784">
+    </managerType>
+    <recordSetType typeId="2e5a4d9b-3c1e-48b6-b0dc-1396237b2d22" valueTypeId="9c6068f1-b7e0-4633-a912-7aaa8df0cf20">
+    </recordSetType>
+    <recordKeyType typeId="3fa963a3-d961-451a-912b-4a49100a33a2" valueTypeId="432ba802-1b6b-412c-8a4c-d7fdc3bff995">
+    </recordKeyType>
+    <recordType typeId="466fa89e-a92f-49de-bbcf-3d98cd120235" valueTypeId="121ad308-7a77-4746-b14c-ddeb22c7efef">
+    </recordType>
+    <recordManagerType typeId="54fb22a7-302c-467c-aa8c-f9f53fc1f9b6" valueTypeId="8867a286-9e6b-4421-a3a5-91e84870babb">
+    </recordManagerType>
   </producedTypes>
   <name>ЦеныНоменклатуры</name>
   <synonym>
@@ -73,6 +80,7 @@
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>

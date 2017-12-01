@@ -251,29 +251,19 @@
       </type>
     </attributes>
   </tabularSections>
-  <tabularSections uuid="259a3936-650d-48c0-b72e-d427a6a1ca1f">
+  <tabularSections uuid="5ebfacdc-2c5a-47d7-bf12-bb4a6ddd8ad3">
     <producedTypes>
-      <objectType typeId="b5e766af-b625-478f-8abf-8de617aab1be" valueTypeId="e7c076dd-2bb4-4f22-8158-c64c07acfc0c">
+      <objectType typeId="49f52323-4502-4983-b3fc-cfffc1498005" valueTypeId="98454798-3bf3-4f28-9e53-568b2033ab46">
       </objectType>
-      <rowType typeId="2381d93a-ff38-403c-bc6b-4de29d6aed06" valueTypeId="c38952c4-30b4-42d2-8ad0-414402f6c483">
+      <rowType typeId="fdfeedc4-17ce-4199-93ab-ca2968ea3168" valueTypeId="57bee80a-0694-41ef-972f-329ce5410808">
       </rowType>
     </producedTypes>
-    <name>ТЧ_РезультатОтбора</name>
+    <name>ДанныеНоменклатуры</name>
     <synonym>
       <key>ru</key>
-      <value>Результат отбора</value>
+      <value>Данные номенклатуры</value>
     </synonym>
-    <comment></comment>
-    <standardAttributes>
-      <name>LineNumber</name>
-      <comment></comment>
-      <fillValue xsi:type="core:UndefinedValue"/>
-      <fullTextSearch>Use</fullTextSearch>
-      <mask></mask>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-    </standardAttributes>
-    <attributes uuid="263980e9-93f9-4afc-8a3f-56e881ec3cf7">
+    <attributes uuid="21cab30c-d875-4e95-aad4-144760b40b46">
       <name>Номенклатура</name>
       <synonym>
         <key>ru</key>
@@ -286,55 +276,33 @@
       <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <indexing>Index</indexing>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="512b1200-705f-4c18-b954-73118f79c8d4">
-      <name>Исполнитель</name>
+    <attributes uuid="7f2d2758-b958-4fe4-9950-5e57de23492c">
+      <name>ЦенаНоменклатуры</name>
       <synonym>
         <key>ru</key>
-        <value>Исполнитель</value>
+        <value>Цена номенклатуры</value>
       </synonym>
-      <comment></comment>
       <type>
-        <types>CatalogRef.Магазины</types>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
       </type>
-      <mask></mask>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="554f62ac-a578-4c88-9b59-b132e9ca654b">
-      <name>ДатаМониторинга</name>
+    <attributes uuid="77956aa8-8e78-4978-9baf-2f2f4988daff">
+      <name>КатегорияЦены</name>
       <synonym>
         <key>ru</key>
-        <value>Дата мониторинга</value>
+        <value>Категория цены</value>
       </synonym>
-      <comment></comment>
       <type>
-        <types>Date</types>
-        <dateQualifiers>
-          <dateFractions>Date</dateFractions>
-        </dateQualifiers>
+        <types>CatalogRef.КатегорииЦен</types>
       </type>
-      <mask></mask>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="8f0c2b40-ab57-40d5-8910-936ab0f81358">
-      <name>Конкурент</name>
-      <synonym>
-        <key>ru</key>
-        <value>Конкурент</value>
-      </synonym>
-      <comment></comment>
-      <type>
-        <types>CatalogRef.Конкуренты</types>
-      </type>
-      <mask></mask>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
   <templates uuid="dccb1ae7-9189-41d5-9c36-993890b2b0ff">
