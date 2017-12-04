@@ -23,4 +23,5 @@
   <content>InformationRegister.СоответствиеНоменклатуры</content>
   <content>InformationRegister.СоответствиеГородов</content>
   <content>Catalog.ШаблоныКомментариев</content>
+  <content>InformationRegister.СостояниеМониторингаПозиций</content>
 </mdclass:Subsystem>

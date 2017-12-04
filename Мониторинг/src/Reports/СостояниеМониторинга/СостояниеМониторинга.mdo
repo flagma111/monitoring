@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea5daaf5-1dea-4d16-bf03-834baf2ac161">
+  <producedTypes>
+    <objectType typeId="5d92d065-35e9-4d60-bbe9-1027b52ecdba" valueTypeId="792e776e-b03c-4b48-b0b6-e4ef6e763ddd">
+    </objectType>
+    <managerType typeId="4037d4ea-47e8-4c68-aefb-0077a0c286a2" valueTypeId="0ae1092a-2aa9-4be9-938e-0f4d92e0a51a">
+    </managerType>
+  </producedTypes>
+  <name>СостояниеМониторинга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние мониторинга</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.СостояниеМониторинга.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="56bed143-02cd-4db4-8256-272b260ebd1b">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

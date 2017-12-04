@@ -417,7 +417,7 @@
         <placementArea>UserCmds</placementArea>
       </items>
       <items xsi:type="form:Table">
-        <name>ДеревоИНТ</name>
+        <name>ДеревоСопоставления</name>
         <id>58</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -425,11 +425,11 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>ДеревоИНТ</segments>
+          <segments>ДеревоСопоставления</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <items xsi:type="form:FormField">
-          <name>ДеревоИНТСопоставлениеКорректно</name>
+          <name>ДеревоСопоставленияСопоставлениеКорректно</name>
           <id>71</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -437,14 +437,14 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>ДеревоИНТ.СопоставлениеКорректно</segments>
+            <segments>ДеревоСопоставления.СопоставлениеКорректно</segments>
           </dataPath>
           <handlers>
             <event>OnChange</event>
             <name>ДеревоИНТСопоставлениеКорректноПриИзменении</name>
           </handlers>
           <extendedTooltip>
-            <name>ДеревоИНТСопоставлениеКорректноРасширеннаяПодсказка</name>
+            <name>ДеревоСопоставленияСопоставлениеКорректноРасширеннаяПодсказка</name>
             <id>73</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -459,7 +459,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ДеревоИНТСопоставлениеКорректноКонтекстноеМеню</name>
+            <name>ДеревоСопоставленияСопоставлениеКорректноКонтекстноеМеню</name>
             <id>72</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -479,7 +479,7 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
-          <name>ДеревоИНТНоменклатураКонкурент</name>
+          <name>ДеревоСопоставленияНоменклатураКонкурент</name>
           <id>74</id>
           <title>
             <key>ru</key>
@@ -491,10 +491,10 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>ДеревоИНТ.НоменклатураКонкурент</segments>
+            <segments>ДеревоСопоставления.НоменклатураКонкурент</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ДеревоИНТНоменклатураКонкурентРасширеннаяПодсказка</name>
+            <name>ДеревоСопоставленияНоменклатураКонкурентРасширеннаяПодсказка</name>
             <id>76</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -509,7 +509,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ДеревоИНТНоменклатураКонкурентКонтекстноеМеню</name>
+            <name>ДеревоСопоставленияНоменклатураКонкурентКонтекстноеМеню</name>
             <id>75</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -535,7 +535,7 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
-          <name>ДеревоИНТКодИсполнитель</name>
+          <name>ДеревоСопоставленияКодИсполнитель</name>
           <id>77</id>
           <title>
             <key>ru</key>
@@ -547,10 +547,10 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>ДеревоИНТ.КодИсполнитель</segments>
+            <segments>ДеревоСопоставления.КодИсполнитель</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ДеревоИНТКодИсполнительРасширеннаяПодсказка</name>
+            <name>ДеревоСопоставленияКодИсполнительРасширеннаяПодсказка</name>
             <id>79</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -565,7 +565,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ДеревоИНТКодИсполнительКонтекстноеМеню</name>
+            <name>ДеревоСопоставленияКодИсполнительКонтекстноеМеню</name>
             <id>78</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -591,7 +591,7 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
-          <name>ДеревоИНТЦена</name>
+          <name>ДеревоСопоставленияЦена</name>
           <id>80</id>
           <title>
             <key>ru</key>
@@ -603,10 +603,10 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>ДеревоИНТ.Цена</segments>
+            <segments>ДеревоСопоставления.Цена</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ДеревоИНТЦенаРасширеннаяПодсказка</name>
+            <name>ДеревоСопоставленияЦенаРасширеннаяПодсказка</name>
             <id>82</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -621,7 +621,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ДеревоИНТЦенаКонтекстноеМеню</name>
+            <name>ДеревоСопоставленияЦенаКонтекстноеМеню</name>
             <id>81</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -646,7 +646,7 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
-          <name>ДеревоИНТКомментарий</name>
+          <name>ДеревоСопоставленияКомментарий</name>
           <id>83</id>
           <title>
             <key>ru</key>
@@ -658,10 +658,10 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>ДеревоИНТ.КатегорияКомментарий</segments>
+            <segments>ДеревоСопоставления.КатегорияКомментарий</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ДеревоИНТКомментарийРасширеннаяПодсказка</name>
+            <name>ДеревоСопоставленияКомментарийРасширеннаяПодсказка</name>
             <id>85</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -676,7 +676,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ДеревоИНТКомментарийКонтекстноеМеню</name>
+            <name>ДеревоСопоставленияКомментарийКонтекстноеМеню</name>
             <id>84</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -700,7 +700,7 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
-          <name>ДеревоИНТДатаМониторинга</name>
+          <name>ДеревоСопоставленияДатаМониторинга</name>
           <id>132</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -708,10 +708,10 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>ДеревоИНТ.ДатаМониторинга</segments>
+            <segments>ДеревоСопоставления.ДатаМониторинга</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ДеревоИНТДатаМониторингаРасширеннаяПодсказка</name>
+            <name>ДеревоСопоставленияДатаМониторингаРасширеннаяПодсказка</name>
             <id>134</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -726,7 +726,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ДеревоИНТДатаМониторингаКонтекстноеМеню</name>
+            <name>ДеревоСопоставленияДатаМониторингаКонтекстноеМеню</name>
             <id>133</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -750,10 +750,10 @@
           </extInfo>
         </items>
         <autoCommandBar>
-          <name>ДеревоИНТКоманднаяПанель1</name>
+          <name>ДеревоСопоставленияКоманднаяПанель</name>
           <id>60</id>
           <items xsi:type="form:Button">
-            <name>ДеревоИНТДеревоИНТДеревоИНТДеревоИНТВсеСопоставлениеКорректно</name>
+            <name>ДеревоСопоставленияДеревоИНТДеревоИНТДеревоИНТДеревоИНТВсеСопоставлениеКорректно</name>
             <id>144</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -761,7 +761,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ДеревоИНТДеревоИНТДеревоИНТДеревоИНТВсеСопоставлениеКорректноРасширеннаяПодсказка1</name>
+              <name>ДеревоСопоставленияДеревоИНТДеревоИНТДеревоИНТДеревоИНТВсеСопоставлениеКорректноРасширеннаяПодсказка</name>
               <id>145</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -785,7 +785,7 @@
             </picture>
           </items>
           <items xsi:type="form:Button">
-            <name>ДеревоИНТДеревоИНТДеревоИНТДеревоИНТВсеСнять</name>
+            <name>ДеревоСопоставленияДеревоИНТДеревоИНТДеревоИНТДеревоИНТВсеСнять</name>
             <id>146</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -793,7 +793,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ДеревоИНТДеревоИНТДеревоИНТДеревоИНТВсеСнятьРасширеннаяПодсказка1</name>
+              <name>ДеревоСопоставленияДеревоИНТДеревоИНТДеревоИНТДеревоИНТВсеСнятьРасширеннаяПодсказка</name>
               <id>147</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -826,11 +826,11 @@
         </autoCommandBar>
         <handlers>
           <event>Selection</event>
-          <name>ДеревоИНТВыбор</name>
+          <name> ДеревоСопоставленияВыбор</name>
         </handlers>
         <handlers>
           <event>OnActivateRow</event>
-          <name>ДеревоИНТПриАктивизацииСтроки</name>
+          <name>ДеревоСопоставленияПриАктивизацииСтроки</name>
         </handlers>
         <searchStringAddition>
           <visible>true</visible>
@@ -838,10 +838,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <name>ДеревоИНТСтрокаПоиска1</name>
+          <name>ДеревоСопоставленияСтрокаПоиска</name>
           <id>62</id>
           <extendedTooltip>
-            <name>ДеревоИНТСтрокаПоиска1РасширеннаяПодсказка</name>
+            <name>ДеревоСопоставленияСтрокаПоискаРасширеннаяПодсказка</name>
             <id>64</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -856,7 +856,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ДеревоИНТСтрокаПоиска1КонтекстноеМеню</name>
+            <name>ДеревоСопоставленияСтрокаПоискаКонтекстноеМеню</name>
             <id>63</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -865,7 +865,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ДеревоИНТСтрокаПоиска1</source>
+          <source>ДеревоСопоставленияСтрокаПоиска</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -876,10 +876,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <name>ДеревоИНТСостояниеПросмотра1</name>
+          <name>ДеревоСопоставленияСостояниеПросмотра</name>
           <id>65</id>
           <extendedTooltip>
-            <name>ДеревоИНТСостояниеПросмотра1РасширеннаяПодсказка</name>
+            <name>ДеревоСопоставленияСостояниеПросмотраРасширеннаяПодсказка</name>
             <id>67</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -894,7 +894,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ДеревоИНТСостояниеПросмотра1КонтекстноеМеню</name>
+            <name>ДеревоСопоставленияСостояниеПросмотраКонтекстноеМеню</name>
             <id>66</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -904,7 +904,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ДеревоИНТСостояниеПросмотра1</source>
+          <source>ДеревоСопоставленияСостояниеПросмотра</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
             <horizontalLocation>Left</horizontalLocation>
@@ -916,10 +916,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <name>ДеревоИНТУправлениеПоиском1</name>
+          <name>ДеревоСопоставленияУправлениеПоиском</name>
           <id>68</id>
           <extendedTooltip>
-            <name>ДеревоИНТУправлениеПоиском1РасширеннаяПодсказка</name>
+            <name>ДеревоСопоставленияУправлениеПоискомРасширеннаяПодсказка</name>
             <id>70</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -934,7 +934,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ДеревоИНТУправлениеПоиском1КонтекстноеМеню</name>
+            <name>ДеревоСопоставленияУправлениеПоискомКонтекстноеМеню</name>
             <id>69</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -944,13 +944,13 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ДеревоИНТУправлениеПоиском1</source>
+          <source>ДеревоСопоставленияУправлениеПоиском</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
         </searchControlAddition>
         <extendedTooltip>
-          <name>ДеревоИНТРасширеннаяПодсказка1</name>
+          <name>ДеревоСопоставленияРасширеннаяПодсказка</name>
           <id>61</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -965,7 +965,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ДеревоИНТКонтекстноеМеню1</name>
+          <name>ДеревоСопоставленияКонтекстноеМеню</name>
           <id>59</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1043,7 +1043,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>ТекНоменклатура.Описание</segments>
+          <segments>ТекущаяНоменклатура.Описание</segments>
         </dataPath>
         <extendedTooltip>
           <name>ТекНоменклатураОписаниеРасширеннаяПодсказка1</name>
@@ -1645,10 +1645,10 @@
     <savedData>true</savedData>
   </attributes>
   <attributes>
-    <name>ДеревоИНТ</name>
+    <name>ДеревоСопоставления</name>
     <title>
       <key>ru</key>
-      <value>Дерево ИНТ</value>
+      <value>Дерево сопоставления</value>
     </title>
     <id>2</id>
     <valueType>
@@ -1944,10 +1944,10 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ТекНоменклатура</name>
+    <name>ТекущаяНоменклатура</name>
     <title>
       <key>ru</key>
-      <value>Тек номенклатура</value>
+      <value>Текущая номенклатура</value>
     </title>
     <id>7</id>
     <valueType>

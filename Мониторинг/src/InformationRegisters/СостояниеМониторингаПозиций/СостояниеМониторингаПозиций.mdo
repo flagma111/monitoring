@@ -62,6 +62,18 @@
     </type>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
+  <resources uuid="1a9dbc8e-4434-43af-b4a7-c7773349cbbf">
+    <name>ДатаСтатуса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата статуса</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
   <dimensions uuid="9c3a5372-a04a-4f1b-8c26-4d425b26e27c">
     <name>Конкурент</name>
     <synonym>

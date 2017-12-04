@@ -9,4 +9,5 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Report.ОтчетОКачестве</content>
+  <content>Report.СостояниеМониторинга</content>
 </mdclass:Subsystem>

@@ -82,6 +82,7 @@
   <enums>Enum.ВидыСоответствийНоменклатуры</enums>
   <enums>Enum.СтатусыМониторинга</enums>
   <reports>Report.ОтчетОКачестве</reports>
+  <reports>Report.СостояниеМониторинга</reports>
   <dataProcessors>DataProcessor.ОбменМониторингРозница</dataProcessors>
   <dataProcessors>DataProcessor.МастерЗаданийНаМониторинг</dataProcessors>
   <dataProcessors>DataProcessor.ПарсингСайтовКонкурентов</dataProcessors>
